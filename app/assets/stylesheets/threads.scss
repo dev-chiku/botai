@@ -1,0 +1,61 @@
+#thread-main {
+  padding: 15px;
+  
+  #rows {
+    overflow-y: auto;
+    
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    hr {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    
+    .post-inf {
+      font-size: 12px; 
+      margin-bottom: 0px;
+      
+      .person {
+        margin-left: 10px;
+      }
+    }
+
+    .post-text {
+      font-size: 15px; 
+    }
+    
+  }
+}
+
+.fotter {
+  position: absolute;
+  width: 1170px;
+  height: 75px;
+  bottom: 10px;
+  padding-right: 30px;
+  @media (min-width: 768px) {
+    width: 750px;
+  }
+  @media (min-width: 992px) {
+    width: 970px;
+  }
+  @media (min-width: 1200px) {
+    width: 1170px;
+  }  
+  
+  textarea {
+    border: solid 1px #ccc;
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 0;
+  }
+  
+  span {
+    margin-top: -8px;
+    display: block;
+    text-align: right;
+  }
+}

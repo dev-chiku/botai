@@ -1,0 +1,9 @@
+ja:
+  activerecord:
+    models:
+      message: メッセージ
+    attributes:
+      message:
+        input_text: 送信するテキスト
+        created_at: 登録日時
+        updated_at: 更新日時
