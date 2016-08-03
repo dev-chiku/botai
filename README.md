@@ -14,6 +14,7 @@ sampleは試用キーで１時間に10回だけAPIコールが可能なキーに
 
 ### rails
 railsのバージョンは4.2.1で、bootswatch、rspecなどを使用しています。
+vender以下は含まれていませんので、実行前にはbundle installを実施ください。
 
 ### ライセンス
 ライセンスはMITです。
