@@ -1,5 +1,3 @@
-（作成途中）
-
 # 人工知能ボットAPI
 下記リンクのUserLocalさんの人工知能ボットAPIを使用したrailsの簡易Webチャットアプリになります。
 http://ai.userlocal.jp/
@@ -13,7 +11,7 @@ sampleは試用キーで１時間に10回だけAPIコールが可能なキーに
 制限なしに使用したい場合はUserLocalさんに冒頭のリンクからAPIの使用申請を行ってください。
 
 ### rails
-railsのバージョンは4.2.1で、bootswatch、rspecなどを使用しています。
+railsのバージョンは4.2.1で、rspec、scss、jquery、bootswatch、factorygirl、databasecleanerなどを使用しています。
 vender以下は含まれていませんので、実行前にはbundle installを実施ください。
 
 ### ライセンス
