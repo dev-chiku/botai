@@ -24,4 +24,5 @@ en:
   errors:
     messages:
       only_half_alphanumeric: only half alphanumeric
+      bot_api: api call error
   
