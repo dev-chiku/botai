@@ -1,4 +1,8 @@
 
+# サーバーから受信したエラーメセージを取得する
+#
+# @param [String] 配列形式のエラーメッセージjson文字列
+# @return [String] エラーメッセージ
 getErrMessage = (responseText) ->
   if !responseText?
     return ''
